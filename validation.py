@@ -30,6 +30,7 @@ def validateAmount(amount):
         
 
 def validateCategory(category):
+    
     category = category.strip().lower()
     if category not in CATEGORIES:
         invalidExpense("Invalid category!")
